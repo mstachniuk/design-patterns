@@ -9,7 +9,6 @@ public class Client {
     public static void main(String[] args) {
 
         InvocationHandler handler = new InvocationHandler() {
-
             Image4K image4K;
 
             @Override

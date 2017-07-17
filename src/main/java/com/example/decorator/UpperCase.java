@@ -2,7 +2,7 @@ package com.example.decorator;
 
 public class UpperCase implements Text {
 
-    Text text;
+    private Text text;
 
     public UpperCase(Text text) {
         this.text = text;

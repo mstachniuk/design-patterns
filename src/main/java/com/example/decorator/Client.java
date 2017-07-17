@@ -8,5 +8,8 @@ public class Client {
 
         Text htmlUpperText = new HtmlText(new UpperCase(simple));
         System.out.println(htmlUpperText.getText());
+
+        Text upperHtmlText = new UpperCase(new HtmlText(simple));
+        System.out.println(upperHtmlText.getText());
     }
 }
